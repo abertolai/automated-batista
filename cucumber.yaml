@@ -1,0 +1,6 @@
+default: -p html_report -p bdd -p http_log
+html_report: --format html --out=report/logs/report.html
+bdd: --format pretty
+
+# Logs
+http_log: HTTP_LOG=true
